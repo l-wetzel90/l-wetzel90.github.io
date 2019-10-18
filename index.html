@@ -4,8 +4,7 @@
 ; Author: Loren Wetzel
 ; Date:   12 August 2019
 ; Modified By:
-; Description: personal portfolio single page
-;       application
+; Description: personal portfolio
 ;===========================================
 -->
 <!DOCTYPE html>
@@ -28,25 +27,31 @@
 
 <body class="bg-light text-dark">
 
-  <header>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Loren Wetzel</a>
 
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Loren Wetzel</a>
-      <ul class="nav justify-content-end">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/l-wetzel90" target="_blank"><i
-              class="fa fa-github"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:l.wetzel900@gmail.com"><i class="fa fa-at"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/lorenwetzel90/" target="_blank"><i
-              class="fa fa-linkedin"></i></a>
+          <a href="web-335/wetzel-diagrams.html" class="nav-link">Diagrams</a>
         </li>
       </ul>
+
+      <nav class="navbar navbar-dark bg-dark">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/l-wetzel90" target="_blank"><i
+                class="fa fa-github"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:l.wetzel900@gmail.com"><i class="fa fa-at"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/lorenwetzel90/" target="_blank"><i
+                class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
     </nav>
-  </header>
 
   <div class="jumbotron jumbotron-fluid">
   </div>
@@ -93,9 +98,12 @@
       </div>
     </div>
 
-    <footer class="text-center">
+    <div class="jumbotron jumbotron-fluid">
+    </div>
+
+    <footer class="text-center bg-light text-dark">
       &copy;
-      <script>document.write(new Date().getFullYear());</script>, Loren Wetzel.
+      <script>document.write(new Date().getFullYear());</script>, Loren Wetzel
     </footer>
 
   </div>
